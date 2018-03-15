@@ -1,0 +1,14 @@
+#include <iostream>
+#include <vector>
+#include <iterator>
+using std::vector;
+using std::ostream_iterator;
+using std::cout;
+using std::endl;
+int main()
+{
+  vector<int> vec1(10, 0);
+  copy(vec1.begin(), vec2.end(), ostream_iterator<int>(cout, " "));
+  cout<<endl;
+  return 0;
+}
